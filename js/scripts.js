@@ -1,9 +1,13 @@
 $(document).ready(function(){
-  $(".icecream").click(function(){
-    var flavors = [" strawberry", "vanilla", " chocolate"]
-      flavors.forEach(function(flavor) {
-        $("#flavor1").text(flavor);
+  $(".icecream").click(function(event){
+    var flavors = [" strawberry", " vanilla", " chocolate"]
+
+        flavors.forEach(function(flavor) {
+        $("#theFlavor").append("<li>" + flavor + "</li>");
+                // $("#flavor1").append(flavor);
     });
+
     event.preventDefault();
     });
+
   });
