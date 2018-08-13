@@ -1,0 +1,9 @@
+
+.icecream:hover {
+ text-decoration: underline;
+}
+
+.icecream {
+  cursor: pointer;
+  color: #0088cc;
+}
